@@ -18,4 +18,9 @@ app.get('/users',(req,res) => {
 
 })
 
-app.listen(3000)
+app.listen(3000,(err)=>{
+    if(err){
+        console.log(err)
+    }
+    console.log("Server Running on port 3000")
+})
