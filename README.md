@@ -3,7 +3,7 @@ Pagination for  api request .
 
 # To Start a Project
 ```
-npm build
+npm install
 npm start
 ```
 Server listen on 3000
